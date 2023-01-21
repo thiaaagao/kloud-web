@@ -1,13 +1,13 @@
-import {Containerbotoes} from './StyledButton';
+import {Containerbotoes, BotaoPlay} from './StyledButton';
 
-function Buttons(props){
+function Buttons(){
     return(
         <>
         <Containerbotoes>
-            <li>A</li>
-            <li>B</li>
-            <li>C</li>
-            <li>D</li>
+            <BotaoPlay>Play</BotaoPlay>
+            <BotaoPlay>Play</BotaoPlay>
+            <BotaoPlay>Play</BotaoPlay>
+            <BotaoPlay>Play</BotaoPlay>
         </Containerbotoes>
    
         </>

@@ -1,17 +1,20 @@
 import styled from "styled-components";
 
-export const BotaoPlay = styled.button`
-    color: blue;
-    background: white;
-    border: 2px solid #A60303;
-    border-radius: 20px;
-    width: 435px;
-    height: 95px;
 
-    color: #A60303;
-`;
 
-export const Containerbotoes = styled.ul`
+export const Containerbotoes = styled.div`
     color: white;
+    display: grid;
+    justify-content: center;
 
+
+`;
+export const BotaoPlay = styled.a`
+    background: transparent;
+    border: 2px solid #A60303;
+    border-radius: 10px;
+    width: 235px;
+    height: 40px;
+
+    /* color: #A60303; */
 `;
