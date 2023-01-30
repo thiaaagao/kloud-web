@@ -1,11 +1,11 @@
 import Card from "./components/Card/Card";
-import Button from "./components/Card/Buttons";
+import Buttons from "./components/Card/Buttons";
 
 function App() {
   return (
     <div>
-      <Card /> 
-      <Button text="teste"/> 
+      <Card />
+      <Buttons name="Play" url="https://google.com"/>
     </div>
   );
 }

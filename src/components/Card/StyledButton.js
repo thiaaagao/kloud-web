@@ -3,18 +3,19 @@ import styled from "styled-components";
 
 
 export const Containerbotoes = styled.div`
-    color: white;
     display: grid;
-    justify-content: center;
 
 
 `;
-export const BotaoPlay = styled.a`
+export const BotaoPlay = styled.button`
+    width: 20em;
+    height: 4em;
+    margin: 0 auto;
+    padding-right: 7em;
     background: transparent;
-    border: 2px solid #A60303;
-    border-radius: 10px;
-    width: 235px;
-    height: 40px;
-
-    /* color: #A60303; */
+    border: 1px solid rgb(255,0,0);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    
 `;

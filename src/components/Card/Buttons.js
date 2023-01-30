@@ -1,15 +1,14 @@
 import {Containerbotoes, BotaoPlay} from './StyledButton';
 
-function Buttons(){
+function Buttons({name, url}){
     return(
         <>
         <Containerbotoes>
-            <BotaoPlay>Play</BotaoPlay>
-            <BotaoPlay>Play</BotaoPlay>
-            <BotaoPlay>Play</BotaoPlay>
-            <BotaoPlay>Play</BotaoPlay>
+            <BotaoPlay>{name}<a href={url}>Spotify</a></BotaoPlay>
+            <BotaoPlay>{name}</BotaoPlay>
+            <BotaoPlay>{name}</BotaoPlay>
+            <BotaoPlay>{name}</BotaoPlay>
         </Containerbotoes>
-   
         </>
 
     );

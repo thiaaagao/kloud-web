@@ -1,6 +1,6 @@
 import {Container, Carder, Title, VinilHeader}  from "./StyledCard";
 import {Containerbotoes, BotaoPlay} from './StyledButton';
-
+import Buttons from "./Buttons";
 
 function Card() {
   return (
@@ -8,11 +8,11 @@ function Card() {
       <Container>
         <Carder>
           <Title>
-            <VinilHeader>
+            <VinilHeader>  
             </VinilHeader>
           </Title>
-        </Carder>
-      </Container>
+          </Carder>
+          </Container>
       
     </>
   );
