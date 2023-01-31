@@ -2,22 +2,18 @@ import styled from "styled-components";
 import vinilHeader from "../img/vinil-kloud.webp";
 
 export const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  padding-top: 40px;
+  margin: 0 auto;
+  width: 400px;
+  height: 55em;
 `;
 
 export const Carder = styled.div`
-  display: flex;
-
-  justify-content: center;
-  border-radius: 10px;
-
-  width: 350px;
-  height: 40em;
+  display: grid;
 
   background: linear-gradient(#0d0d0d 40%, #ffffff 40%);
+  border-radius: 10px;
 `;
+
 export const Title = styled.h3`
   color: white;
   text-align: center;
@@ -27,7 +23,7 @@ export const VinilHeader = styled.img.attrs({
   //Passando como attrs
   src: `${vinilHeader}`,
 })`
-  padding-top: 25px;
-  width: 250px;
-  justify-content: center;
+  margin: 0 auto;
+  width: 200px;
+  padding-top: 20px;
 `;

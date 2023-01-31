@@ -4,8 +4,8 @@
 :root {
   font-family: "Poppins", "Source Sans Pro";
   background: linear-gradient(90deg, #400106, #A60303);
-  padding: 0;
-  background-image: url('./components/img/bckgKloud.jpg');
+  padding: 0;/* 
+  background-image: url('./components/img/bckgKloud.jpg'); */
   background-size: cover;
   
 }
