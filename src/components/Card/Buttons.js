@@ -1,11 +1,14 @@
-import { LinkBotao, BotaoPlay, ContainerBotao } from "./StyledButton";
+import { LinkBotao, ContainerBotao, PlayLogo } from "./StyledButton";
 
-function Buttons({ name, url }) {
+function Buttons({ url, src, name }) {
   return (
     <>
-      <LinkBotao href={url} target="_blank">
-        {name}
-      </LinkBotao>
+      <ContainerBotao>
+        <LinkBotao href={url} target="_blank">
+          <PlayLogo src={src}>
+          </PlayLogo>
+        </LinkBotao>
+      </ContainerBotao>
     </>
   );
 }

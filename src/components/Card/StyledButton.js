@@ -1,32 +1,50 @@
 import styled from "styled-components";
 
-export const LinkBotao = styled.a`
+export const ContainerBotao = styled.div`
+    display: flex;
+
+    border: 3px solid #a60303;
+    width: 300px;
+
+    border-radius: 15px;
     
-    font-size: 20px;
-
-    border: 2px solid #a60303;
-    border-radius: 10px;
-
-    color: #A60303;
-
-    width: 325px;
-    height: 50px;
-    
-    padding: 10px;
-
-    text-decoration: none;
-    margin: 0 auto;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 
+    margin: 0 auto;
+`;
+
+export const LinkBotao = styled.a`
+    border: 1px solid #ff00ff;
+    display: inline-flex;
+
+    justify-content: left;
+    align-content: left;
+
+    width: 300px;
+    
+    border-radius: 10px;
     background: transparent;
     :visited {
-        color: #A60303;
+        color: black;
     }
     :hover{
-        color: black;
+        color: #a60303;
     }
     :focus{
-        color: black;
+        color: #a60303;
     }
+`;
+
+
+/* IMPORTANDO IMG UTILIZANDO ATTRS  */
+export const PlayLogo = styled.img.attrs(({src}) => ({
+    src: src,
+    alt: "streaming-logo"
+}))`
+    border: 1px solid #ff00ff;
+    display: flex;
+    width: 35px;
 `;
 

@@ -3,21 +3,23 @@ import vinilHeader from "../img/vinil-kloud.webp";
 
 export const Container = styled.div`
   margin: 0 auto;
-  width: 400px;
-  height: 55em;
+  display: grid;
+  box-sizing: border-box;
+  width: 350px;
+  height: 550px;
 `;
 
 export const Carder = styled.div`
-  display: grid;
-
+  
+  display: grid;  
   background: linear-gradient(#0d0d0d 40%, #ffffff 40%);
-  border-radius: 10px;
+  border-radius: 5px;
+
+  margin-top: 25px;
+  padding-bottom: 15px;
+  padding-top: 50px;
 `;
 
-export const Title = styled.h3`
-  color: white;
-  text-align: center;
-`;
 
 export const VinilHeader = styled.img.attrs({
   //Passando como attrs
@@ -25,5 +27,4 @@ export const VinilHeader = styled.img.attrs({
 })`
   margin: 0 auto;
   width: 200px;
-  padding-top: 20px;
 `;
