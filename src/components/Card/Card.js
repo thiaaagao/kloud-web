@@ -5,17 +5,16 @@ import LogoYoutube from "../img/youtube-icon.svg";
 import LogoSpotify from "../img/spotify-icon.svg";
 import LogoApple from "../img/applemusic-icon.svg";
 
-
 function Card() {
   return (
     <>
       <Container>
         <Carder>
           <VinilHeader></VinilHeader>
-          <Buttons name="Play" url="https://www.google.com/" src={LogoSpotify}></Buttons>
-          <Buttons  url="https://www.google.com/" src={LogoYoutube}></Buttons>
-          <Buttons  url="https://www.google.com/" src={LogoApple}></Buttons>
-          <Buttons  url="https://www.google.com/" src={LogoDeezer}></Buttons>
+          <Buttons name={"Spotify"} url="https://www.google.com/" src={LogoSpotify}></Buttons>
+          <Buttons name={"Youtube"} url="https://www.google.com/" src={LogoYoutube}></Buttons>
+          <Buttons name={"Apple Music"} url="https://www.google.com/" src={LogoApple}></Buttons>
+          <Buttons name={"Deezer"} url="https://www.google.com/" src={LogoDeezer}></Buttons>
         </Carder>
       </Container>
     </>

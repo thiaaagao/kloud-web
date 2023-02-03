@@ -3,25 +3,25 @@ import styled from "styled-components";
 export const ContainerBotao = styled.div`
     display: flex;
 
-    border: 3px solid #a60303;
     width: 300px;
-
+    margin: 0 auto;
     border-radius: 15px;
     
     text-align: center;
     justify-content: center;
     align-items: center;
 
-    margin: 0 auto;
 `;
 
 export const LinkBotao = styled.a`
     border: 1px solid #ff00ff;
     display: inline-flex;
 
+    padding: 10px 10px 0;
     justify-content: left;
     align-content: left;
 
+    text-decoration: none;
     width: 300px;
     
     border-radius: 10px;
@@ -36,6 +36,15 @@ export const LinkBotao = styled.a`
         color: #a60303;
     }
 `;
+
+export const TituloLogo = styled.p`
+    font-size: 14px;
+    display: block;
+    height: auto;
+    padding-left: 5px;
+    text-decoration: none;
+`;
+
 
 
 /* IMPORTANDO IMG UTILIZANDO ATTRS  */

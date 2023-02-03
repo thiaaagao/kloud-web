@@ -3,9 +3,12 @@
 
 :root {
   font-family: "Poppins", "Source Sans Pro";
-  background: linear-gradient(90deg, #400106, #A60303);
-  padding: 0;/* 
-  background-image: url('./components/img/bckgKloud.jpg'); */
+  background: linear-gradient(rgba(64, 1, 6, 0.2), rgba(166, 3, 3, 1.5)),
+    url("./components/img/bckgKloud.jpg"); /* GRADIENT WHITE IMAGEM RGBA WITH OPACITY */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  
+  margin: 0 auto;
+  padding: 0;
 }

@@ -6,11 +6,12 @@ export const Container = styled.div`
   display: grid;
   box-sizing: border-box;
   width: 350px;
-  height: 550px;
+  height: 700px;
 `;
 
 export const Carder = styled.div`
   
+  max-height: 550px;
   display: grid;  
   background: linear-gradient(#0d0d0d 40%, #ffffff 40%);
   border-radius: 5px;
