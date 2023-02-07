@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ContainerBotao = styled.div`
   display: flex;
 
-  width: 300px;
   margin: 0 auto;
   border-radius: 15px;
 
@@ -16,14 +15,11 @@ export const LinkBotao = styled.a`
   border: 3px solid #a60303;
   display: flex;
 
-  jusfity-content: center;
-  align-itens: center;
-  jusfity-itens: center;
-
   text-decoration: none;
-  width: 700px;
+  min-width: 200px;
 
   border-radius: 10px;
+  
   background: white;
   :visited {
     color: black;
